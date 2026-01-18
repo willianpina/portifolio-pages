@@ -321,14 +321,15 @@
 
 .journey-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(3,1fr);
   gap: 5rem;
-  max-width: 1200px;
+  max-width: 1600px;
   margin: 0 auto;
 }
 
 .journey-title {
   font-size: 1.4rem;
+  text-align: left;
   margin-bottom: 2rem;
   color: #1f3cff;
 }
