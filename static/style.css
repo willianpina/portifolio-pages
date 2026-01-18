@@ -486,7 +486,7 @@
 
   .hero {
     height: auto;
-    min-height: 85svh;
+    min-height: 75svh;
   }
 
   .hero-image {
@@ -494,10 +494,11 @@
     inset: 0;
     width: 100%;
     height: 100%;
+    opacity: 0.75;
 
     background-image: url("../images/hero.jpeg");
     background-size: cover;
-    background-position: center top;
+    background-position: center top 30%;
 
     -webkit-mask-image: none !important;
     mask-image: none !important;
