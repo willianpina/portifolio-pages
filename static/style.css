@@ -187,6 +187,18 @@
 ========================================================= */
 
 @media (max-width: 768px) {
+
+  .hero {
+    min-height: 100svh; /* melhor que 100vh no iOS */
+    overflow: hidden;
+  }
+
+  .hero-image {
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+  }
+
   .hero-content {
     padding-left: 2rem;
     padding-right: 2rem;
@@ -201,16 +213,6 @@
     font-size: 1.4rem;
     margin-left: 0;
     margin-top: 2rem;
-  }
-}
-
-@media (max-width: 768px) {
-  .hero {
-    min-height: 100vh;
-  }
-
-  .hero-image {
-    background-position: center top;
   }
 }
 
