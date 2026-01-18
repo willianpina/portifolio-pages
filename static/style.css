@@ -360,7 +360,7 @@
 .timeline-dot {
   position: absolute;
   left: -11px;
-  top: 0.35rem;
+  top: 0.15rem;
   width: 14px;
   height: 14px;
   background: #ff7a18;
@@ -409,7 +409,7 @@
 }
 
 .cert-group h5 {
-  font-size: 0.85rem;
+  font-size: 1.2rem;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   margin-bottom: 0.6rem;
