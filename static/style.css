@@ -185,36 +185,61 @@
 }
 
 /* =========================================================
-   MOBILE
+   HERO — MOBILE FIX
 ========================================================= */
 
 @media (max-width: 768px) {
 
   .hero {
-    min-height: 100svh; /* melhor que 100vh no iOS */
-    overflow: hidden;
+    height: auto;
+    min-height: 100svh; /* iOS safe */
   }
 
+  /* 🔴 desliga a imagem lateral */
   .hero-image {
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-size: cover;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+
+    /* remove efeitos que quebram no Safari */
+    -webkit-mask-image: none;
+    mask-image: none;
   }
 
+  /* 🔴 overlay simplificado */
+  .hero-overlay {
+    background: rgba(0, 0, 0, 0.6);
+  }
+
+  /* conteúdo centralizado */
   .hero-content {
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding: 0 2rem;
     padding-top: 18vh;
+    align-items: flex-start;
+  }
+
+  .hero-title {
+    margin-left: 0;
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+
+  .hero-intro {
+    font-size: 1.8rem;
   }
 
   .hero-name {
-    font-size: 2.6rem;
+    font-size: 2.8rem;
   }
 
   .hero-subtitle {
     font-size: 1.4rem;
-    margin-left: 0;
-    margin-top: 2rem;
+    margin: 2rem 0 0 0;
+  }
+
+  .hero-links {
+    margin-top: 3rem;
   }
 }
 
