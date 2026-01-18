@@ -413,7 +413,7 @@
   text-transform: uppercase;
   letter-spacing: 0.05em;
   margin-bottom: 0.6rem;
-  color: var(--text-muted, #777);
+  color: var(--text-muted, #000000);
 }
 
 .cert-group ul {
@@ -424,7 +424,7 @@
 
 .cert-group li {
   font-size: 0.9rem;
-  color: #555;
+  color: #444;
   margin-bottom: 0.5rem;
   line-height: 1.4;
 }
