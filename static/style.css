@@ -20,6 +20,7 @@
   background-image: url("../images/hero.jpeg");
   background-size: 100%;
   background-position: center;
+  background-repeat: no-repeat;
 
   /* 🔑 FEATHER REAL */
   -webkit-mask-image: linear-gradient(
@@ -200,6 +201,16 @@
     font-size: 1.4rem;
     margin-left: 0;
     margin-top: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    min-height: 100vh;
+  }
+
+  .hero-image {
+    background-position: center top;
   }
 }
 
