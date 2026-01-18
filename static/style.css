@@ -498,7 +498,7 @@
 
     background-image: url("../images/hero.jpeg");
     background-size: cover;
-    background-position: center top 30%;
+    background-position: center 30%;
 
     -webkit-mask-image: none !important;
     mask-image: none !important;
