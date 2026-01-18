@@ -184,64 +184,6 @@
   transform: translateY(-1px);
 }
 
-/* =========================================================
-   HERO — MOBILE FIX
-========================================================= */
-
-@media (max-width: 768px) {
-
-  .hero {
-    height: auto;
-    min-height: 100svh; /* iOS safe */
-  }
-
-  /* 🔴 desliga a imagem lateral */
-  .hero-image {
-    width: 100%;
-    height: 100%;
-    left: 0;
-    right: 0;
-
-    /* remove efeitos que quebram no Safari */
-    -webkit-mask-image: none;
-    mask-image: none;
-  }
-
-  /* 🔴 overlay simplificado */
-  .hero-overlay {
-    background: rgba(0, 0, 0, 0.6);
-  }
-
-  /* conteúdo centralizado */
-  .hero-content {
-    padding: 0 2rem;
-    padding-top: 18vh;
-    align-items: flex-start;
-  }
-
-  .hero-title {
-    margin-left: 0;
-    flex-direction: column;
-    gap: 0.2rem;
-  }
-
-  .hero-intro {
-    font-size: 1.8rem;
-  }
-
-  .hero-name {
-    font-size: 2.8rem;
-  }
-
-  .hero-subtitle {
-    font-size: 1.4rem;
-    margin: 2rem 0 0 0;
-  }
-
-  .hero-links {
-    margin-top: 3rem;
-  }
-}
 
 /* =========================================================
    ABOUT SECTION
@@ -525,4 +467,52 @@
     transparent
   );
   opacity: 0.8;
+}
+
+/* =========================================================
+   HERO — MOBILE HARD RESET (iOS SAFE)
+========================================================= */
+
+@media (max-width: 768px) {
+
+  .hero {
+    height: auto;
+    min-height: 100svh;
+  }
+
+  .hero-image {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+
+    background-image: url("../images/hero.jpeg");
+    background-size: cover;
+    background-position: center top;
+
+    -webkit-mask-image: none !important;
+    mask-image: none !important;
+  }
+
+  .hero-overlay {
+    background: rgba(0, 0, 0, 0.65);
+  }
+
+  .hero-content {
+    padding: 0 2rem;
+    padding-top: 22vh;
+  }
+
+  .hero-title {
+    flex-direction: column;
+    margin-left: 0;
+  }
+
+  .hero-subtitle {
+    margin-top: 2rem;
+  }
+
+  .hero-links {
+    margin-top: 3rem;
+  }
 }
