@@ -26,6 +26,18 @@
       <p><strong>Location:</strong> Brazil</p>
       <p><strong>Focus:</strong> Data Science & Analytics</p>
     </div>
+
+    <div class="about-languages">
+      <h4>Languages</h4>
+    
+      <p>
+        <strong>Portuguese:</strong> Native
+      </p>
+      <p>
+        <strong>English:</strong> Advanced (Professional working proficiency)
+      </p>
+    </div>
+
   </div>
 
   <!-- COLUNA DIREITA -->
@@ -66,6 +78,16 @@
       <div class="skill-label">
         <span>Geospatial AI</span>
         <span>75%</span>
+      </div>
+      <div class="skill-bar">
+        <div style="width: 75%"></div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <div class="skill-label">
+        <span>GIS Tools</span>
+        <span>70%</span>
       </div>
       <div class="skill-bar">
         <div style="width: 75%"></div>

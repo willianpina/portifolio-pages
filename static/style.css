@@ -247,6 +247,24 @@
   font-size: 1.2rem;
 }
 
+.about-languages {
+  margin-top: 1.5rem;
+}
+
+.about-languages h4 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: var(--text-primary);
+}
+
+.about-languages p {
+  font-size: 1.2rem;
+  color: #444444;
+  margin: 0.2rem 0;
+}
+
+
 /* SKILLS */
 
 .about-skills .skill {
