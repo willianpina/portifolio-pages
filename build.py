@@ -57,14 +57,11 @@ def render_page(lang_key: str):
         year=datetime.now().year,
     )
 
-    # Output file
-    output_dir = Path("docs")
-    output_dir.mkdir(exist_ok=True)
-
+    # Output file (GitHub Pages root)
     output_file = (
-        output_dir / "index.html"
+        Path("index.html")
         if lang_key == "en"
-        else output_dir / "index_pt.html"
+        else Path("index_pt.html")
     )
 
     output_file.write_text(html, encoding="utf-8")
