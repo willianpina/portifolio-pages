@@ -486,7 +486,7 @@
 
   .hero {
     height: auto;
-    min-height: 100svh;
+    min-height: 85svh;
   }
 
   .hero-image {
