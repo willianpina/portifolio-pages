@@ -43,6 +43,15 @@
   );
 }
 
+/* Edge / Chromium fallback */
+@supports not (-webkit-mask-image: linear-gradient(black, transparent)) {
+  .hero-image {
+    -webkit-mask-image: none;
+    mask-image: none;
+    opacity: 0.85; /* fallback elegante */
+  }
+}
+
 
 /* gradiente para fundir imagem com o fundo preto */
 .hero-overlay {
