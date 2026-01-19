@@ -6,20 +6,24 @@
     <span class="section-accent"></span>
   </div>
 
-  <!-- FILTERS -->
-  <div class="projects-filters">
-    <button class="active" data-filter="all">Todos</button>
-    <button data-filter="geospatial">Geospatial AI</button>
-    <button data-filter="cv">Visão Computacional</button>
-    <button data-filter="ds">Data Science</button>
-    <button data-filter="msc">Mestrado</button>
-  </div>
+<!-- FILTROS -->
+<div class="projects-filters">
+  <button class="active" data-filter="all">Todos</button>
+  <button data-filter="geospatial">Geospatial AI</button>
+  <button data-filter="cv">Visão Computacional</button>
+  <button data-filter="nlp">NLP</button>
+  <button data-filter="genai">IA Generativa</button>
+  <button data-filter="ml">Machine Learning</button>
+  <button data-filter="analysis">Análise de Dados</button>
+  <button data-filter="msc">Mestrado</button>
+</div>
+
 
   <!-- GRID -->
   <div class="projects-grid">
 
     <!-- PROJECT 1 — COVID 19 ANÁLISE DE IMPACTO USANDO LINGUAGEM R -->
-    <div class="project-card" data-category="msc ds">
+    <div class="project-card" data-category="msc analysis">
       <img src="images/projects/Analysis_of_the_Impacts_of_COVID_19.jpeg" alt="Master's Degree Project">
 
       <div class="project-overlay">
@@ -42,7 +46,7 @@
     </div>
 
     <!-- PROJECT 2 — BBC NEWS Classification-->
-    <div class="project-card" data-category="msc ds nlp">
+    <div class="project-card" data-category="msc ml nlp">
       <img src="images/projects/BBC_News_Classification.jpg" alt="BBC News Classification">
 
       <div class="project-overlay">
@@ -65,7 +69,7 @@
     </div>
 
     <!-- PROJECT 3 — Detecção de Câncer -->
-    <div class="project-card" data-category="msc cv">
+    <div class="project-card" data-category="msc cv ml">
       <img src="images/projects/Cancer_Detection.jpg" alt="Detecção de Câncer">
 
       <div class="project-overlay">
@@ -86,7 +90,7 @@
     </div>
 
     <!-- PROJECT 4 — Análise do Mercado de Trabalho -->
-    <div class="project-card" data-category="ds msc">
+    <div class="project-card" data-category="analysis msc">
       <img src="images/projects/Data_Scientist_Job_Market_UK.jpg" alt="Job Market">
 
       <div class="project-overlay">
@@ -108,7 +112,7 @@
     </div>
 
     <!-- PROJECT 5 — ENEM 2022 -->
-    <div class="project-card" data-category="ds msc">
+    <div class="project-card" data-category="msc ml analysis">
       <img src="images/projects/ENEM_2022_Project.jpg" alt="ENEM 2022">
 
       <div class="project-overlay">
@@ -130,7 +134,7 @@
     </div>
 
     <!-- PROJECT 6 — Monet-Style GAN Kaggle Competition -->
-    <div class="project-card" data-category="cv msc">
+    <div class="project-card" data-category="cv genai ml msc">
       <img src="images/projects/Monet-Style-GAN.jpg" alt="GAN KAGGLE">
 
       <div class="project-overlay">
@@ -152,7 +156,7 @@
     </div>
 
     <!-- PROJECT 7 — INVASIVE SPECIES MONITORING -->
-    <div class="project-card" data-category="cv msc">
+    <div class="project-card" data-category="cv ml msc">
       <img src="images/projects/Invasive_Species_Monitoring.jpg" alt="INVASIVE SPECIES MONITORING">
 
       <div class="project-overlay">
@@ -174,7 +178,7 @@
     </div>
 
     <!-- PROJECT 8 — NLP Disaster Tweets Kaggle Mini-Project -->
-    <div class="project-card" data-category="cv msc">
+    <div class="project-card" data-category="nlp ml msc">
       <img src="images/projects/NLP_Disaster_Tweets.jpeg" alt="NLP Disaster Tweets">
 
       <div class="project-overlay">
@@ -196,7 +200,7 @@
     </div>
 
     <!-- PROJECT 9 — Análise de Incidentes de Tiroteio em Nova York (2006–Atual) -->
-    <div class="project-card" data-category="ds msc">
+    <div class="project-card" data-category="analysis msc">
       <img src="images/projects/NYPD_Shotting_Incidents.jpg" alt="Tiroteio em Nova York">
 
       <div class="project-overlay">
@@ -218,7 +222,7 @@
     </div>
 
     <!-- PROJECT 10 — Análise de Perturbações em Células Únicas com Aprendizado Não Supervisionado -->
-    <div class="project-card" data-category="ds msc">
+    <div class="project-card" data-category="analysis ml msc">
       <img src="images/projects/Single_Cell_Perturbations.jpeg" alt="Análise de Perturbações em Células Únicas">
 
       <div class="project-overlay">
@@ -240,7 +244,7 @@
     </div>
 
     <!-- PROJECT 11 — Energy Market Analysis Data -->
-    <div class="project-card" data-category="ds">
+    <div class="project-card" data-category="analysis ml">
       <img src="images/projects/Energy_Market_Analysis_Data.jpeg" alt="Energy Market Analysis Data">
 
       <div class="project-overlay">
@@ -262,7 +266,7 @@
     </div>
 
     <!-- PROJECT 12 —  Improvement Project with CIFAR-100 -->
-    <div class="project-card" data-category="ds cv">
+    <div class="project-card" data-category="cv ml">
       <img src="images/projects/Enhancing_Convolutional_Neural_Network_Performance.png" alt="CNN Optimization with CIFAR-100">
 
       <div class="project-overlay">
@@ -284,7 +288,7 @@
     </div>
 
     <!-- PROJECT 13 —  Geospatial Terrain Analysis for Detection -->
-    <div class="project-card" data-category="ds geospatial">
+    <div class="project-card" data-category="ml geospatial">
       <img src="images/projects/Geospatial_Terrain_Analysis_for_Detection.jpg" alt="Geospatial Terrain Analysis">
 
       <div class="project-overlay">
@@ -306,7 +310,7 @@
     </div>
 
     <!-- PROJECT 14 —  Geospatial Analysis of Housing Data -->
-    <div class="project-card" data-category="ds geospatial">
+    <div class="project-card" data-category="ml geospatial analysis">
       <img src="images/projects/Geospatial_Analysis_of_Housing_Data.png" alt="Geospatial Analysis of Housing Data">
 
       <div class="project-overlay">
@@ -328,7 +332,7 @@
     </div>
 
     <!-- PROJECT 15 —  Sararé Mining Structure Detection -->
-    <div class="project-card" data-category="ds geospatial">
+    <div class="project-card" data-category="cv ml geospatial">
       <img src="images/projects/Sarare_Mining_Structure_Detection.jpg" alt="Sararé Mining Structure Detection">
 
       <div class="project-overlay">
@@ -350,7 +354,7 @@
     </div>
 
     <!-- PROJECT 16 —  Airline Reviews Analysis & Customer Satisfaction -->
-    <div class="project-card" data-category="ds">
+    <div class="project-card" data-category="analysis ml">
       <img src="images/projects/Airline_Reviews_Analysis.jpg" alt="Airline Reviews">
 
       <div class="project-overlay">
@@ -367,6 +371,29 @@
 
         <div class="project-links">
           <a href="https://github.com/willianpina/British_Airlines/tree/master" target="_blank">GitHub</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- PROJECT 17 —  PDF SUMMARIZER -->
+    <div class="project-card" data-category="nlp genai">
+      <img src="images/projects/PDF_Summarizer.jpg" alt="PDF SUMMARIZER">
+
+      <div class="project-overlay">
+        <h3>Resumidor de PDFs com Conversão de Texto em Áudio</h3>
+
+        <p class="project-description">
+          Aplicação em Streamlit que permite o upload de arquivos PDF, 
+          gera resumos automáticos do conteúdo e converte os resumos em áudio, facilitando a leitura e o consumo de documentos longos.
+        </p>
+
+        <p class="project-tags">
+          NLP · Streamlit · Text-to_Speech
+        </p>
+
+        <div class="project-links">
+          <a href="https://github.com/willianpina/summarize_large_pdf" target="_blank">GitHub</a>
+          <a href="https://huggingface.co/spaces/willianpina/summarizer_pdf" target="_blank">App</a>
         </div>
       </div>
     </div>

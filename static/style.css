@@ -306,7 +306,7 @@
 ========================================================= */
 
 .journey-section {
-  padding: 4rem max(6vw, 2rem);
+  padding: 0 max(6vw, 2rem);
   background: #fff;
   color: #111;
 }
@@ -462,7 +462,7 @@
 ========================================================= */
 
 .projects-section {
-  padding: 4rem max(6vw, 2rem);
+  padding: 0 max(6vw, 2rem);
   background: #fff;
 }
 
