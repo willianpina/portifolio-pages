@@ -173,6 +173,28 @@
       </div>
     </div>
 
+    <!-- PROJECT 8 — NLP Disaster Tweets Kaggle Mini-Project -->
+    <div class="project-card" data-category="cv msc">
+      <img src="images/projects/Invasive_Species_Monitoring.jpg" alt="NLP Disaster Tweets">
+
+      <div class="project-overlay">
+        <h3>Monitoramento de Espécies Invasoras com Visão Computacional</h3>
+
+        <p class="project-description">
+          Projeto de classificação de imagens que utiliza técnicas de visão computacional e aprendizado profundo
+          para identificar a presença de espécies invasoras em ambientes florestais, apoiando o monitoramento ambiental em larga escala.
+        </p>
+
+        <p class="project-tags">
+          Aprendizado Profundo · CNN · Visão Computacional · TensorFlow
+        </p>
+
+        <div class="project-links">
+          <a href="https://github.com/willianpina/MSDS_Colorado_Boulder/blob/main/Invasive%20Species%20Monitoring/Invasive-%20Species-Monitoring-Project.ipynb" target="_blank">GitHub</a>
+        </div>
+      </div>
+    </div>
+
   </div>
 </div>
 
