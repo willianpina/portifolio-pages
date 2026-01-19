@@ -175,22 +175,66 @@
 
     <!-- PROJECT 8 — NLP Disaster Tweets Kaggle Mini-Project -->
     <div class="project-card" data-category="cv msc">
-      <img src="images/projects/Invasive_Species_Monitoring.jpg" alt="NLP Disaster Tweets">
+      <img src="images/projects/NLP_Disaster_Tweets.jpeg" alt="NLP Disaster Tweets">
 
       <div class="project-overlay">
-        <h3>Monitoramento de Espécies Invasoras com Visão Computacional</h3>
+        <h3>Classificação de Tweets sobre Desastres com NLP</h3>
 
         <p class="project-description">
-          Projeto de classificação de imagens que utiliza técnicas de visão computacional e aprendizado profundo
-          para identificar a presença de espécies invasoras em ambientes florestais, apoiando o monitoramento ambiental em larga escala.
+          Projeto de Processamento de Linguagem Natural (NLP) voltado à classificação automática de tweets,
+          identificando se o conteúdo está relacionado a desastres reais com base no contexto e na semântica do texto.
         </p>
 
         <p class="project-tags">
-          Aprendizado Profundo · CNN · Visão Computacional · TensorFlow
+          NLP · Classificação de Texto · Aprendizado de Máquina · TensorFlow
         </p>
 
         <div class="project-links">
-          <a href="https://github.com/willianpina/MSDS_Colorado_Boulder/blob/main/Invasive%20Species%20Monitoring/Invasive-%20Species-Monitoring-Project.ipynb" target="_blank">GitHub</a>
+          <a href="https://github.com/willianpina/MSDS_Colorado_Boulder/blob/main/NLP%20Disaster%20Tweets%20Kaggle%20Mini-Project/NLP_Disaster_Tweets_Kaggle_Mini_Project.ipynb" target="_blank">GitHub</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- PROJECT 9 — Análise de Incidentes de Tiroteio em Nova York (2006–Atual) -->
+    <div class="project-card" data-category="ds msc">
+      <img src="images/projects/NYPD_Shotting_Incidents.jpg" alt="Tiroteio em Nova York">
+
+      <div class="project-overlay">
+        <h3>Análise de Incidentes de Tiroteio em Nova York (2006–Atual)</h3>
+
+        <p class="project-description">
+          Projeto acadêmico de análise exploratória e espacial de dados históricos de incidentes de tiro em Nova York,
+          utilizando registros oficiais do NYPD para identificar padrões temporais, geográficos e demográficos relacionados à violência armada.
+        </p>
+
+        <p class="project-tags">
+          Análise de Dados · Visualização de Dados · Análise da Segurança Pública · Linguagem R
+        </p>
+
+        <div class="project-links">
+          <a href="https://github.com/willianpina/MSDS_Colorado_Boulder/tree/main/NYPD%20Shotting%20Incidents%20Project" target="_blank">GitHub</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- PROJECT 10 — Análise de Perturbações em Células Únicas com Aprendizado Não Supervisionado -->
+    <div class="project-card" data-category="ds msc">
+      <img src="images/projects/Single_Cell_Perturbations.jpeg" alt="Análise de Perturbações em Células Únicas">
+
+      <div class="project-overlay">
+        <h3>Análise de Perturbações em Células Únicas com Aprendizado Não Supervisionado</h3>
+
+        <p class="project-description">
+          Projeto acadêmico que aplica técnicas de aprendizado não supervisionado, com foco em fatoração de matrizes,
+          para analisar respostas celulares a perturbações por fármacos em dados de single-cell, integrando ciência de dados e biotecnologia.
+        </p>
+
+        <p class="project-tags">
+          Aprendizado Supervisionado · Bioinformática ·  K Means
+        </p>
+
+        <div class="project-links">
+          <a href="https://github.com/willianpina/MSDS_Colorado_Boulder/blob/main/Open%20Problems%20Single%20Cell%20Perturbation%20-%20Project/OPEN%20PROBLEMS%20SINGLE%20CELL%20PERTURBATIONS%20_MSDS.ipynb" target="_blank">GitHub</a>
         </div>
       </div>
     </div>
