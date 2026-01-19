@@ -371,6 +371,7 @@
     
         <div class="project-links">
           <a href="https://github.com/willianpina/British_Airlines/tree/master" target="_blank">GitHub</a>
+          <a href="https://github.com/willianpina/Forage_Projects/blob/main/BRITISH%20AIRWAYS/reviews.ipynb" target="_blank">Reviews - Analysis</a>
         </div>
       </div>
     </div>
