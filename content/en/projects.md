@@ -313,6 +313,72 @@
       </div>
     </div>
 
+    <!-- PROJECT 14 — Geospatial Analysis of Housing Data -->
+    <div class="project-card" data-category="ds geospatial">
+      <img src="images/projects/Geospatial_Analysis_of_Housing_Data.png" alt="Geospatial Analysis of Housing Data">
+    
+      <div class="project-overlay">
+        <h3>Geospatial Analysis of Housing Data — Brasília (DF)</h3>
+    
+        <p class="project-description">
+          Geospatial data analysis project investigating how property characteristics, location, and proximity to points of interest influence
+          real estate prices in Brasília, integrating IBGE and OpenStreetMap data with statistical and machine learning models.
+        </p>
+    
+        <p class="project-tags">
+          Geospatial AI · Real Estate Analytics · OpenStreetMap
+        </p>
+    
+        <div class="project-links">
+          <a href="https://github.com/willianpina/Geospatial_Analysis_of_Housing_data" target="_blank">GitHub</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- PROJECT 15 — Sararé Mining Structure Detection -->
+    <div class="project-card" data-category="ds geospatial">
+      <img src="images/projects/Sarare_Mining_Structure_Detection.jpg" alt="Sararé Mining Structure Detection">
+    
+      <div class="project-overlay">
+        <h3>Illegal Mining Structure Detection in the Sararé Indigenous Territory</h3>
+    
+        <p class="project-description">
+          Geospatial AI project for automatic detection of illegal mining structures and machinery using satellite imagery and Deep Learning (YOLO),
+          with spatial post-processing to reduce false positives and support environmental monitoring and operational intelligence.
+        </p>
+    
+        <p class="project-tags">
+          Geospatial AI · Computer Vision · Environmental Monitoring
+        </p>
+    
+        <div class="project-links">
+          <a href="https://github.com/willianpina/Sarare-MiningStructureDetection" target="_blank">GitHub</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- PROJECT 16 — Airline Reviews Analysis & Customer Satisfaction -->
+    <div class="project-card" data-category="ds">
+      <img src="images/projects/Airline_Reviews_Analysis.jpg" alt="Airline Reviews">
+    
+      <div class="project-overlay">
+        <h3>Customer Satisfaction Analysis at British Airways</h3>
+    
+        <p class="project-description">
+          Analysis of airline customer reviews using clustering and logistic regression
+          to identify satisfaction patterns and key factors influencing customer recommendations at British Airways.
+        </p>
+    
+        <p class="project-tags">
+          Data Science · Machine Learning · Customer Satisfaction Analysis
+        </p>
+    
+        <div class="project-links">
+          <a href="https://github.com/willianpina/British_Airlines/tree/master" target="_blank">GitHub</a>
+        </div>
+      </div>
+    </div>
+
 
 
 
