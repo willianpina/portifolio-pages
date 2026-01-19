@@ -240,9 +240,9 @@
       </div>
     </div>
 
-     <!-- PROJECT 11 — Energy Market Analysis Data -->
-     <div class="project-card" data-category="ds">
-     <img src="images/projects/Energy_Market_Analysis_Data.jpeg" alt="Energy Market Analysis Data">
+         <!-- PROJECT 11 — Energy Market Analysis Data -->
+    <div class="project-card" data-category="ds">
+      <img src="images/projects/Energy_Market_Analysis_Data.jpeg" alt="Energy Market Analysis Data">
     
       <div class="project-overlay">
         <h3>Global Renewable Energy Market Analysis and Projections to 2030</h3>
@@ -258,8 +258,63 @@
         </p>
     
         <div class="project-links">
-          <a href="https://github.com/willianpina/Freelancer_Projects/blob/main/Energy%20Market%20Data%20Analysis/energy-market-data-analysis_version2.ipynb" target="_blank">GitHub</a>
+          <a href="https://github.com/willianpina/Freelancer_Projects/blob/main/Energy%20Market%20Data%20Analysis/energy-market-data-analysis_version2.ipynb" target="_blank">
+            GitHub
+          </a>
         </div>
+      </div>
+    </div>
+    
+    <!-- PROJECT 12 — CNN Improvement Project with CIFAR-100 -->
+    <div class="project-card" data-category="ds cv">
+      <img src="images/projects/Enhancing_Convolutional_Neural_Network_Performance.png" alt="CNN Optimization with CIFAR-100">
+    
+      <div class="project-overlay">
+        <h3>Convolutional Neural Network Optimization on CIFAR-100</h3>
+    
+        <p class="project-description">
+          Machine learning optimization project focused on improving a Convolutional Neural Network (CNN)
+          for image classification on the CIFAR-100 dataset, exploring architectural adjustments and
+          techniques such as Snapshot Ensemble to surpass baseline performance within a limited number
+          of training epochs.
+        </p>
+    
+        <p class="project-tags">
+          Deep Learning · Computer Vision · Model Optimization
+        </p>
+    
+        <div class="project-links">
+          <a href="https://github.com/willianpina/Freelancer_Projects/blob/main/ML%20Model%20Optimization/FINAL_PROJECT23_V1.ipynb" target="_blank">
+            GitHub
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- PROJECT 13 — Geospatial Terrain Analysis for Detection -->
+    <div class="project-card" data-category="ds geospatial">
+      <img src="images/projects/Geospatial_Terrain_Analysis_for_Detection.jpg" alt="Geospatial Terrain Analysis">
+    
+      <div class="project-overlay">
+        <h3>Geospatial Terrain Analysis for Detecting Hidden Illegal Mining in the Sararé Indigenous Territory</h3>
+    
+        <p class="project-description">
+          Application of geospatial techniques and satellite imagery to identify areas with a high probability
+          of hidden illegal mining machinery, supporting operational and environmental actions in the Sararé Indigenous Territory.
+        </p>
+    
+        <p class="project-tags">
+          Geospatial AI · Remote Sensing · Satellite Imagery
+        </p>
+    
+        <div class="project-links">
+          <a href="https://github.com/willianpina/Operational-Geospatial-Model-Sarare/tree/master" target="_blank">GitHub</a>
+        </div>
+      </div>
+    </div>
+
+
+
 
   </div>
 </div>
