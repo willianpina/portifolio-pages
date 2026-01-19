@@ -38,33 +38,50 @@ def render_page(lang_key: str):
     if not content_dir.exists():
         raise FileNotFoundError(f"Content directory not found: {content_dir}")
 
-    # Load markdown sections
+    site_cfg = SITE_CONTENT[lang_key]
+
+    # =====================================================
+    # Load markdown sections (Jinja → Markdown)
+    # =====================================================
+
     sections = {}
+
     for md_file in content_dir.glob("*.md"):
         with open(md_file, encoding="utf-8") as f:
-            sections[md_file.stem] = markdown.markdown(
-                f.read(),
-                extensions=["extra", "smarty"]
-            )
+            md_raw = f.read()
 
-    # Render HTML
+        # Render Markdown as Jinja template (for {{ year }}, etc.)
+        md_template = env.from_string(md_raw)
+        md_rendered = md_template.render(
+            year=datetime.now().year
+        )
+
+        # Convert Markdown to HTML
+        sections[md_file.stem] = markdown.markdown(
+            md_rendered,
+            extensions=["extra", "smarty"]
+        )
+
+    # =====================================================
+    # Render final HTML page
+    # =====================================================
+
     html = template.render(
-        lang=SITE_CONTENT[lang_key]["lang"],
-        page_title=SITE_CONTENT[lang_key]["page_title"],
-        hero_intro=SITE_CONTENT[lang_key]["hero_intro"],
-        hero_subtitle=SITE_CONTENT[lang_key]["hero_subtitle"],
+        lang=site_cfg["lang"],
+        page_title=site_cfg["page_title"],
+        hero_intro=site_cfg["hero_intro"],
+        hero_subtitle=site_cfg["hero_subtitle"],
         sections=sections,
         year=datetime.now().year,
     )
 
+    # =====================================================
     # Output file (GitHub Pages root)
-    output_file = (
-        Path("index.html")
-        if lang_key == "en"
-        else Path("index_pt.html")
-    )
+    # =====================================================
 
+    output_file = Path("index.html") if lang_key == "en" else Path("index_pt.html")
     output_file.write_text(html, encoding="utf-8")
+
     print(f"✔ Página gerada: {output_file}")
 
 # =========================================================
@@ -77,4 +94,3 @@ render_page("pt")
 print("✅ Site gerado com sucesso")
 
 
-print("✅ Site gerado com sucesso")
