@@ -7,38 +7,39 @@
 
   <div class="about-grid">
 
-  <!-- COLUNA ESQUERDA -->
-  <div class="about-content">
-    <h3>Olá,</h3>
-
-    <p>
-      Sou <strong>Willian Pina</strong>, Cientista de Dados e Analista de Negócios,
-      com experiência em análise de dados, IA geoespacial e soluções analíticas
-      orientadas à tomada de decisão.
-    </p>
-
-    <p>
-      Atuo na interseção entre dados, tecnologia e decisões estratégicas,
-      com foco em projetos aplicados a problemas do mundo real.
-    </p>
-
-    <div class="about-meta">
-      <p><strong>Localização:</strong> Brasil</p>
-      <p><strong>Foco:</strong> Ciência de Dados & Analytics</p>
+    <!-- COLUNA ESQUERDA -->
+    <div class="about-content">
+      <h3>Olá,</h3>
+    
+      <p>
+        Sou <strong>Willian Pina</strong>, Cientista de Dados e Coordenador de Análise Operacional,
+        com experiência em Ciência de Dados, análise estratégica e Inteligência Artificial
+        aplicada a contextos geoespaciais.
+      </p>
+    
+      <p>
+        Atuo na interseção entre dados, tecnologia e tomada de decisão,
+        coordenando e desenvolvendo soluções analíticas voltadas ao apoio
+        operacional e estratégico em cenários reais e complexos.
+      </p>
+    
+      <div class="about-meta">
+        <p><strong>Localização:</strong> Brasil</p>
+        <p><strong>Foco:</strong> Ciência de Dados, Analytics, Análise Operacional & Estratégica (Geoespacial)</p>
+      </div>
+    
+      <div class="about-languages">
+        <h4>Idiomas</h4>
+    
+        <p>
+          <strong>Português:</strong> Nativo
+        </p>
+        <p>
+          <strong>Inglês:</strong> Avançado (Proficiência profissional)
+        </p>
+      </div>
     </div>
 
-    <div class="about-languages">
-      <h4>Idiomas</h4>
-
-      <p>
-        <strong>Português:</strong> Nativo
-      </p>
-      <p>
-        <strong>Inglês:</strong> Avançado (Proficiência profissional)
-      </p>
-    </div>
-
-  </div>
 
   <!-- COLUNA DIREITA -->
   <div class="about-skills">
@@ -91,6 +92,16 @@
       </div>
       <div class="skill-bar">
         <div style="width: 75%"></div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <div class="skill-label">
+        <span>IA Generativa</span>
+        <span>65%</span>
+      </div>
+      <div class="skill-bar">
+        <div style="width: 65%"></div>
       </div>
     </div>
 
