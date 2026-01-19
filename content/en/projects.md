@@ -28,7 +28,7 @@
       <img src="images/projects/Analysis_of_the_Impacts_of_COVID_19.jpeg" alt="COVID-19 Impact Analysis">
 
       <div class="project-overlay">
-        <h3>Analysis of the Impacts of COVID-19 on Global Populations</h3>
+        <h3>Analysis of the Impacts of COVID-19</h3>
 
         <p class="project-description">
           Analysis of global COVID-19 data focusing on confirmed cases and deaths,
@@ -51,7 +51,7 @@
       <img src="images/projects/BBC_News_Classification.jpg" alt="BBC News Classification">
 
       <div class="project-overlay">
-        <h3>BBC News Classification with Unsupervised Learning</h3>
+        <h3>BBC News Classification</h3>
 
         <p class="project-description">
           Academic project exploring unsupervised learning techniques, with emphasis on matrix factorization,
@@ -95,7 +95,7 @@
       <img src="images/projects/Data_Scientist_Job_Market_UK.jpg" alt="UK Job Market">
 
       <div class="project-overlay">
-        <h3>Data Scientist Job Market Analysis in the United Kingdom</h3>
+        <h3>Data Scientist Job Market Analysis</h3>
 
         <p class="project-description">
           Exploratory analysis of data scientist job postings in the UK,
@@ -118,7 +118,7 @@
       <img src="images/projects/ENEM_2022_Project.jpg" alt="ENEM 2022">
 
       <div class="project-overlay">
-        <h3>Predictive Analysis of ENEM 2022 Performance</h3>
+        <h3>Predictive Analysis of ENEM 2022</h3>
 
         <p class="project-description">
           Application of supervised learning techniques to analyze and predict student performance
@@ -126,7 +126,7 @@
         </p>
 
         <p class="project-tags">
-          Supervised Learning · Educational Analytics · Data Science
+          Supervised Learning · Data Science
         </p>
 
         <div class="project-links">
@@ -140,7 +140,7 @@
       <img src="images/projects/Monet-Style-GAN.jpg" alt="Monet Style GAN">
 
       <div class="project-overlay">
-        <h3>Monet-Style Image Generation with Generative Adversarial Networks (GANs)</h3>
+        <h3>Monet-Style Image Generation with Generative Adversarial Networks</h3>
 
         <p class="project-description">
           Deep learning project using Generative Adversarial Networks (GANs) to generate images
@@ -148,7 +148,7 @@
         </p>
 
         <p class="project-tags">
-          Deep Learning · GANs · Computer Vision · TensorFlow
+          Deep Learning · Computer Vision · TensorFlow
         </p>
 
         <div class="project-links">
@@ -162,7 +162,7 @@
       <img src="images/projects/Invasive_Species_Monitoring.jpg" alt="Invasive Species Monitoring">
 
       <div class="project-overlay">
-        <h3>Invasive Species Monitoring with Computer Vision</h3>
+        <h3>Invasive Species Monitoring</h3>
 
         <p class="project-description">
           Image classification project applying computer vision and deep learning techniques
@@ -170,7 +170,7 @@
         </p>
 
         <p class="project-tags">
-          Deep Learning · CNN · Computer Vision · TensorFlow
+          CNN · Computer Vision · TensorFlow
         </p>
 
         <div class="project-links">
@@ -184,7 +184,7 @@
       <img src="images/projects/NLP_Disaster_Tweets.jpeg" alt="NLP Disaster Tweets">
 
       <div class="project-overlay">
-        <h3>Disaster Tweet Classification with NLP</h3>
+        <h3>Disaster Tweet Classification</h3>
 
         <p class="project-description">
           Natural Language Processing (NLP) project focused on automatically classifying tweets,
@@ -192,7 +192,7 @@
         </p>
 
         <p class="project-tags">
-          NLP · Text Classification · Machine Learning · TensorFlow
+          Text Classification · Machine Learning · TensorFlow
         </p>
 
         <div class="project-links">
@@ -206,7 +206,7 @@
       <img src="images/projects/NYPD_Shotting_Incidents.jpg" alt="NYC Shooting Incidents">
 
       <div class="project-overlay">
-        <h3>New York City Shooting Incident Analysis (2006–Present)</h3>
+        <h3>New York City Shooting Incident Analysis</h3>
 
         <p class="project-description">
           Academic project involving exploratory and spatial analysis of historical shooting incident data in New York City,
@@ -214,7 +214,7 @@
         </p>
 
         <p class="project-tags">
-          Data Analysis · Data Visualization · Public Safety Analytics · R Language
+          Data Analysis · Data Visualization · R Language
         </p>
 
         <div class="project-links">
@@ -228,7 +228,7 @@
       <img src="images/projects/Single_Cell_Perturbations.jpeg" alt="Single-Cell Perturbations">
 
       <div class="project-overlay">
-        <h3>Single-Cell Perturbation Analysis with Unsupervised Learning</h3>
+        <h3>Single-Cell Perturbation Analysis</h3>
 
         <p class="project-description">
           Academic project applying unsupervised learning techniques, with emphasis on matrix factorization,
@@ -253,9 +253,8 @@
         <h3>Global Renewable Energy Market Analysis and Projections to 2030</h3>
     
         <p class="project-description">
-          Analytical study of the global renewable energy market, focusing on wind and solar power,
-          using United Nations data to identify trends, cluster countries by energy profile,
-          and project future scenarios, with applications in sustainable finance and blockchain-based projects.
+          Analytical study of the global renewable energy market using UN data to identify wind and solar trends,
+          cluster countries, and project future scenarios.
         </p>
     
         <p class="project-tags">
@@ -278,10 +277,8 @@
         <h3>Convolutional Neural Network Optimization on CIFAR-100</h3>
     
         <p class="project-description">
-          Machine learning optimization project focused on improving a Convolutional Neural Network (CNN)
-          for image classification on the CIFAR-100 dataset, exploring architectural adjustments and
-          techniques such as Snapshot Ensemble to surpass baseline performance within a limited number
-          of training epochs.
+          Machine learning optimization project improving a CNN for CIFAR-100 image classification using architectural
+          tuning and Snapshot Ensembles.
         </p>
     
         <p class="project-tags">
@@ -301,7 +298,7 @@
       <img src="images/projects/Geospatial_Terrain_Analysis_for_Detection.jpg" alt="Geospatial Terrain Analysis">
     
       <div class="project-overlay">
-        <h3>Geospatial Terrain Analysis for Detecting Hidden Illegal Mining in the Sararé Indigenous Territory</h3>
+        <h3>Geospatial Analysis for Detecting Hidden Illegal Mining in Sararé</h3>
     
         <p class="project-description">
           Application of geospatial techniques and satellite imagery to identify areas with a high probability
@@ -326,8 +323,7 @@
         <h3>Geospatial Analysis of Housing Data — Brasília (DF)</h3>
     
         <p class="project-description">
-          Geospatial data analysis project investigating how property characteristics, location, and proximity to points of interest influence
-          real estate prices in Brasília, integrating IBGE and OpenStreetMap data with statistical and machine learning models.
+          Geospatial analysis of real estate prices in Brasília using property features, location, and points of interest.
         </p>
     
         <p class="project-tags">
@@ -348,8 +344,7 @@
         <h3>Illegal Mining Structure Detection in the Sararé Indigenous Territory</h3>
     
         <p class="project-description">
-          Geospatial AI project for automatic detection of illegal mining structures and machinery using satellite imagery and Deep Learning (YOLO),
-          with spatial post-processing to reduce false positives and support environmental monitoring and operational intelligence.
+          Geospatial AI project for detecting illegal mining structures and machinery using satellite imagery and YOLO.
         </p>
     
         <p class="project-tags">
@@ -407,6 +402,29 @@
         </div>
       </div>
     </div>
+
+    <!-- PROJECT 18 — Fintech Case Study -->
+    <div class="project-card" data-category="analysis">
+      <img src="images/projects/Fintech_Case_Study.jpg" alt="Fintech Case Study">
+    
+      <div class="project-overlay">
+        <h3>Cloud Data Analytics for Fintech with BigQuery and SQL</h3>
+    
+        <p class="project-description">
+          Cloud Data Analytics case study using BigQuery and advanced SQL to analyze loan data, regional distribution,
+          and credit trends, supporting financial decision-making in a fintech.
+        </p>
+    
+        <p class="project-tags">
+          Cloud Analytics · BigQuery · SQL · Data Analysis
+        </p>
+    
+        <div class="project-links">
+          <a href="https://github.com/willianpina/cloud-data-analytics-fintech/tree/master" target="_blank">GitHub</a>
+        </div>
+      </div>
+    </div>
+
 
 
 
