@@ -239,6 +239,28 @@
       </div>
     </div>
 
+        <!-- PROJECT 11 — Energy Market Analysis Data -->
+    <div class="project-card" data-category="ds">
+      <img src="images/projects/Energy_Market_Analysis_Data.jpeg" alt="Energy Market Analysis Data">
+
+      <div class="project-overlay">
+        <h3>Análise do Mercado Global de Energia Renovável e Projeções até 2030</h3>
+
+        <p class="project-description">
+          Estudo analítico do mercado global de energia renovável, com foco em energia eólica e solar, utilizando dados da ONU para identificar tendências, 
+          agrupar países por perfil energético e projetar cenários futuros, com aplicação em projetos de finanças sustentáveis e blockchain.
+        </p>
+
+        <p class="project-tags">
+          Séries Temporais · Sustentabilidade · Ciência de Dados
+        </p>
+
+        <div class="project-links">
+          <a href="https://github.com/willianpina/Freelancer_Projects/blob/main/Energy%20Market%20Data%20Analysis/energy-market-data-analysis_version2.ipynb" target="_blank">GitHub</a>
+        </div>
+      </div>
+    </div>
+
   </div>
 </div>
 
