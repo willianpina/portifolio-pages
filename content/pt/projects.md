@@ -109,7 +109,7 @@
 
     <!-- PROJECT 5 — ENEM 2022 -->
     <div class="project-card" data-category="ds msc">
-      <img src="images/projects/Data_Scientist_Job_Market_UK.jpg" alt="Job Market">
+      <img src="images/projects/ENEM_2022_Project.jpg" alt="ENEM 2022">
 
       <div class="project-overlay">
         <h3>Análise Preditiva do Desempenho no ENEM 2022</h3>
@@ -124,7 +124,51 @@
         </p>
 
         <div class="project-links">
-          <a href="https://github.com/willianpina/MSDS_Colorado_Boulder/blob/main/Data%20Scientist%20Job%20Market%20UK/Final_Project.ipynb" target="_blank">GitHub</a>
+          <a href="https://github.com/willianpina/MSDS_Colorado_Boulder/blob/main/ENEM%202022%20-%20Project/ENEM_2022_Project.ipynb" target="_blank">GitHub</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- PROJECT 6 — Monet-Style GAN Kaggle Competition -->
+    <div class="project-card" data-category="cv msc">
+      <img src="images/projects/Monet-Style-GAN.jpg" alt="GAN KAGGLE">
+
+      <div class="project-overlay">
+        <h3>Geração de Imagens no Estilo Monet com Redes Generativas Adversariais (GANs)</h3>
+
+        <p class="project-description">
+          Projeto de aprendizado profundo que utiliza Redes Generativas Adversariais (GANs)
+          para gerar imagens no estilo do artista Claude Monet, a partir de um conjunto de pinturas e fotografias gerais.
+        </p>
+
+        <p class="project-tags">
+          Aprendizado Profundo · GANs · Visão Computacional · TensorFlow
+        </p>
+
+        <div class="project-links">
+          <a href="https://github.com/willianpina/MSDS_Colorado_Boulder/blob/main/GAN%20Project/GAN-Project.ipynb" target="_blank">GitHub</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- PROJECT 7 — INVASIVE SPECIES MONITORING -->
+    <div class="project-card" data-category="cv msc">
+      <img src="images/projects/Invasive_Species_Monitoring.jpg" alt="INVASIVE SPECIES MONITORING">
+
+      <div class="project-overlay">
+        <h3>Monitoramento de Espécies Invasoras com Visão Computacional</h3>
+
+        <p class="project-description">
+          Projeto de classificação de imagens que utiliza técnicas de visão computacional e aprendizado profundo
+          para identificar a presença de espécies invasoras em ambientes florestais, apoiando o monitoramento ambiental em larga escala.
+        </p>
+
+        <p class="project-tags">
+          Aprendizado Profundo · CNN · Visão Computacional · TensorFlow
+        </p>
+
+        <div class="project-links">
+          <a href="https://github.com/willianpina/MSDS_Colorado_Boulder/blob/main/Invasive%20Species%20Monitoring/Invasive-%20Species-Monitoring-Project.ipynb" target="_blank">GitHub</a>
         </div>
       </div>
     </div>
