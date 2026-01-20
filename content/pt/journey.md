@@ -115,7 +115,7 @@
       <div class="cert-group">
         <h5>Treinamentos Adicionais</h5>
         <ul>
-          <li>Fundamentos de GIS (National Geospatial-Intelligence College) — 2025</li>
+          <li>Fundamentos de GIS (National Geospatial Intelligence College) — 2025</li>
           <li>Introdução ao MongoDB — 2024</li>
           <li>Google Cybersecurity — 2024</li>
           <li>Google Prompt Essentials — 2024</li>
