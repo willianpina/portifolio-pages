@@ -93,7 +93,7 @@
         <ul>
           <li>
             <strong>IBM Data Science Professional Certificate</strong><br>
-            <span>IBM — 2023</span>
+            <span>IBM — 2026</span>
           </li>
         </ul>
       </div>
