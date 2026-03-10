@@ -426,6 +426,28 @@
       </div>
     </div>
 
+    <!-- PROJECT 19 — SpaceX Landing Prediction -->
+    <div class="project-card" data-category="ml analysis">
+      <img src="images/projects/spacex_launch_prediction.jpg" alt="SpaceX Launch Landing Prediction">
+    
+      <div class="project-overlay">
+        <h3>SpaceX Launch Landing Prediction</h3>
+    
+        <p class="project-description">
+          Analysis of Falcon 9 launch data to identify patterns in booster landing success using data science,
+          dashboards, and machine learning.
+        </p>
+    
+        <p class="project-tags">
+          Machine Learning · Data Science · Plotly Dash
+        </p>
+    
+        <div class="project-links">
+          <a href="https://github.com/willianpina/SpaceX-Launch-Landing-Prediction-Analysis" target="_blank">GitHub</a>
+        </div>
+      </div>
+    </div>
+
 
 
 

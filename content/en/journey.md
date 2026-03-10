@@ -102,6 +102,7 @@
       <div class="cert-group">
         <h5>Professional Programs</h5>
         <ul>
+          <li> AWS Cloud Support Associate — 2026 </li>
           <li>Google Data Analytics — 2024</li>
           <li>Google Advanced Data Analytics — 2024</li>
           <li>Google Business Intelligence — 2024</li>
